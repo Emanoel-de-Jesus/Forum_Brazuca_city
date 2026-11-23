@@ -1,0 +1,19 @@
+# Dependências
+node_modules/
+
+# Configuração e segredos
+.env
+env
+database/.forum-jwt.secret
+
+# Dados locais / conteúdo enviado pelos usuários
+forum-state.json
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

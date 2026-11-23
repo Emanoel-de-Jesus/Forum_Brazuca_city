@@ -1,0 +1,23 @@
+{
+  "name": "forum-brazuca-enterprise",
+  "version": "2.0.0",
+  "description": "Forum oficial Brazuca RP integrado ao MySQL/API/Gamemode",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "NODE_ENV=development node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@node-rs/argon2": "^2.0.2",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.5",
+    "nodemailer": "^6.9.16",
+    "npm": "^11.19.1"
+  }
+}
