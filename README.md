@@ -6,7 +6,7 @@ Fórum oficial do **Brazuca RP**, um servidor de roleplay, integrado ao mesmo ba
 
 ## Créditos
 
-Este fórum foi criado por **Offzin (Emanoel de Jesus)** e **BN_JK**.
+Este fórum foi criado por **Offzin (Eu)** e **BN_JK**.
 
 **Uso de IA:** utilizamos ferramentas de inteligência artificial para criar algumas partes do projeto, principalmente trechos do back-end (`index.js`), do front-end e dos estilos. O código foi testado, ajustado e integrado por nós ao servidor, mas, por ter partes geradas por IA, recomendamos revisá-lo antes de usar em produção, especialmente as partes de autenticação e segurança.
 
