@@ -60,6 +60,18 @@ npm start
 
 Modo desenvolvimento: `npm run dev`. Por padrão o fórum sobe em `http://0.0.0.0:3009`.
 
+## Contas GitHub pessoal e de trabalho (Windows)
+
+Execute uma vez no PowerShell, na raiz do projeto:
+
+```powershell
+.\Configure-GitAccounts.ps1
+```
+
+O script instala regras globais do Git. Repositórios cujo remote pertence a `Emanoel-de-Jesus` usam essa conta do GitHub e o e-mail `emanoeljesus610@gmail.com`; os que pertencem a `emanoeljesus2025-art` usam essa conta e o e-mail `emanoel.jesus2025@seducbertioga.com.br`. A regra é baseada no endereço do remote, então funciona ao alternar entre projetos sem executar o script novamente. No primeiro `push` de cada conta, o Git Credential Manager pode pedir para entrar/autorizá-la; depois ele usa a conta associada ao projeto. No repositório atual, configurações locais de nome/e-mail são removidas para permitir que a regra se aplique.
+
+O Git Credential Manager seleciona a conta para remotes HTTPS. Para remotes SSH, a autenticação depende das chaves SSH configuradas no computador.
+
 ## Configuração (`.env`)
 
 O servidor lê `.env`; se não existir, tenta um arquivo chamado `env`. **Nunca** envie o `.env` para o GitHub.
